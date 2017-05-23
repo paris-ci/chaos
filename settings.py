@@ -22,7 +22,7 @@ with open(abs_pat_file) as h:
 GITHUB_USER = "chaosbot"
 
 # TEST SETTING PLEASE IGNORE
-TEST = False 
+TEST = True 
 
 # the amount of time chaosbot should sleep between polling for ready prs
 SLEEP_TIME = 30
