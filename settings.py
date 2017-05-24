@@ -14,7 +14,7 @@ with open("/etc/github_pat.secret", "r") as h:
 GITHUB_USER = "chaosbot"
 
 # TEST SETTING PLEASE IGNORE
-TEST = False
+TEST = True 
 
 # the number of seconds chaosbot should sleep between polling for ready prs
 PULL_REQUEST_POLLING_INTERVAL_SECONDS = 30
